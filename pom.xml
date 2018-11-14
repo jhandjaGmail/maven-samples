@@ -7,6 +7,12 @@
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+                     <configuration>
+                <skipTests>false</skipTests>
+                <testFailureIgnore>true</testFailureIgnore>
+                <forkMode>once</forkMode>
+            </configuration>
+         
   <name>Parent</name>
   <description>Just a pom that makes it easy to build both projects at the same time.</description>
 
