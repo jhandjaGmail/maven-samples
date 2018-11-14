@@ -29,6 +29,8 @@
         <configuration>
           <useSystemClassLoader>false</useSystemClassLoader>
           <skipTests>true</skipTests>       
+          <testFailureIgnore>true</testFailureIgnore>
+          <forkMode>once</forkMode>       
         </configuration>
       </plugin>
     </plugins>
